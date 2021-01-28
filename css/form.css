@@ -1,0 +1,191 @@
+.form {
+  width: 50%;
+  padding-bottom: 10px;
+}
+.form select {
+  margin: 0.2em 0 0.5em 0;
+  display: block;
+  font-size: 14px;
+}
+.form input[type=text],
+.form textarea {
+  margin: 0.2em 0 0.5em 0;
+  display: block;
+  font-size: 14px;
+  resize: none;
+  height: 34px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.form input[type=text]:focus,
+.form textarea:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.form input[type=text] {
+  width: 100%;
+  padding: 6px 12px;
+}
+.form textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px 12px;
+}
+.form input[type=submit] {
+  /* cursor: pointer;
+        outline: 0;
+
+        color: #fff;
+        background-color: #428bca;
+        border-color: #357ebd;
+        border: 1px solid transparent;
+        padding: 7px 20px;
+        font-size: 18px;
+        line-height: 1.33;
+        border-radius: 6px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        &:hover {
+            color: #fff;
+            background-color: #3276b1;
+            border-color: #285e8e;
+        }
+
+        &:active {
+            -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+            box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+        } */
+}
+.form fieldset {
+  border: 1px solid #DDD;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  border-radius: 7px;
+}
+.form label {
+  font-weight: bold;
+  font-size: 12px;
+  display: block;
+  width: 100%;
+}
+.form .row {
+  margin: 0 0 10px;
+}
+.form .row .inline {
+  display: inline;
+}
+.form .hint {
+  margin: 0;
+  padding: 0;
+  color: #999;
+  font-size: 11px;
+}
+.form .note {
+  color: #999;
+  font-size: 11px;
+}
+.form span.required {
+  color: red;
+}
+.form div.error label,
+.form label.error,
+.form span.error {
+  color: #C00;
+}
+.form .error input,
+.form .error textarea,
+.form .error .error select {
+  background: #FEE;
+  border: 1px solid #C00;
+}
+.form .success input,
+.form .success textarea,
+.form .success select {
+  background: #E6EFC2;
+  border: 1px solid #C6D880;
+}
+.form .errorSummary {
+  border: 2px solid #C00;
+  padding: 7px 7px 12px 7px;
+  margin: 0 0 20px 0;
+  background: #FEE;
+  font-size: 0.9em;
+}
+.form .errorMessage {
+  color: red;
+  font-size: 0.9em;
+}
+.form .errorSummary p {
+  margin: 0;
+  padding: 5px;
+}
+.form .errorSummary ul {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+.form .upload-row input[type=file] {
+  padding: 3px;
+}
+.form .captcha {
+  font-size: 11px;
+  list-style: none !important;
+}
+.form .captcha input {
+  width: 100%;
+}
+.form .captcha img {
+  display: block;
+}
+.wide .form label {
+  float: left;
+  margin-right: 10px;
+  position: relative;
+  text-align: right;
+  width: 100px;
+}
+.wide .form .row {
+  clear: left;
+}
+.wide .form .row .buttons input {
+  padding: 5px;
+}
+.wide .form .buttons,
+.wide .form .hint,
+.wide .form .errorMessage {
+  clear: left;
+  padding-left: 110px;
+}
+.inpt-error[type=checkbox] + label {
+  color: #f00;
+}
+.inpt[type=checkbox] + label {
+  width: calc(98% - 15px);
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 5px;
+  vertical-align: top;
+}
+.inpt[type=checkbox] {
+  width: 15px;
+  display: inline-block;
+  position: relative;
+  left: 0;
+  margin-right: 5px;
+}
+.inpt-privacy_policy + label {
+  font-size: 0.9em;
+  margin-bottom: 10px !important;
+}
+.row.error .inpt-privacy_policy + label {
+  color: #f00 !important;
+}

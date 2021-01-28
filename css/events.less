@@ -1,0 +1,117 @@
+/* News */
+.news-pager {
+    display: inline-block;
+    padding-left: 5px !important;
+
+    li {
+        display: inline-block;
+        padding: 2px 4px;
+        margin-right: 5px;
+
+        .selected {
+            background-color: #ddd;
+        }
+    }
+
+    .first,
+    .previous,
+    .next,
+    .last,
+    .hidden {
+        display: none;
+    }
+}
+
+/* Events Page
+----------------------------------------------------------*/
+.events_page .event {
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #000;
+
+    &:last-child {
+        border-bottom: 0;
+    }
+
+    .created {
+        float: right;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        padding-right: 10%;
+        margin-bottom: 12px;
+        color: #000;
+
+        a {
+            color: inherit;
+        }
+    }
+
+    .event_img {
+        float: left;
+        width: 240px;
+        height: 150px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .intro {
+        .clearfix;
+
+        .image-full {
+            display: block;
+            float: left;
+            width: 150px;
+            height: 100px;
+            margin-right: 15px;
+            margin-bottom: 10px;
+            overflow: hidden;
+
+            img {
+                float: none !important;
+                margin: 0 !important;
+            }
+        }
+    }
+
+    .more-info {
+        display: block;
+        width: 150px;
+        padding: 10px 0;
+        margin-top: 5px;
+        font-size: 1.1em;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background: #000;
+
+        &:hover {
+            opacity: .8;
+            box-shadow: 0 2px 2px 0 rgba(0,0,0,.32);
+        }
+
+        &:active {
+            box-shadow: inset 0 2px 2px 0 rgba(0,0,0,.34), 0 1px 1px 0 rgba(0,0,0,.15);
+        }
+    }
+}
+
+
+/* Blog Page
+----------------------------------------------------------*/
+
+.blog {
+    h2 {
+        margin-bottom: 10px;
+    }
+    .post {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,48 @@
+/sitemaps/*
+!/sitemaps/git-gitkeep
+/cgi-bin/
+/webstat/
+
+# Yii
+/assets/*
+!/assets/git-gitkeep
+/protected/runtime/*
+!/protected/runtime/git-gitkeep
+/themes/*
+
+!/*assets
+/sitemap*.*xml
+# Css
+/css/client.css
+
+# Uploads
+/upload/*
+/uploads/*
+
+# Images
+/images/**/*.*
+!/images/**/git-gitkeep
+!/images/shop/*
+!/images/*.*
+
+# Files
+/files
+!/files/.htaccess
+
+# IDE
+# phpStorm
+/.idea
+# Geany
+/*.geany
+# Eclipse
+/.settings/
+/.buildpath
+/.project
+# KDevelop4
+/.kdev4
+/*.kdev4
+
+# local
+/local.index.php
+
+npm-debug.log

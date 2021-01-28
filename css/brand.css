@@ -1,0 +1,111 @@
+/** Brands index */
+.brands__list {
+  margin-bottom: 20px;
+}
+.brands__list .clearfix {
+  margin-bottom: 10px;
+}
+.brands__list .brands__item {
+  display: table-row;
+}
+.brands__list .brands__item .brands__item-logo {
+  display: block;
+  padding: 4px 10px 5px 0;
+  vertical-align: top;
+  margin-right: 10px;
+  width: 100px;
+}
+.brands__list .brands__item .brands__item-logo img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.brands__list .brands__item .brands__item-desc {
+  display: table-cell;
+  width: 100%;
+  vertical-align: top;
+}
+.brands__list .brands__item .brands__item-desc .more-info {
+  float: right;
+}
+/** Brand view */
+.brand__logo img {
+  float: right;
+  max-width: 200px;
+  max-height: 200px;
+}
+.brand__categories {
+  margin-top: 20px;
+}
+.brand__categories ul {
+  list-style: none;
+  margin-top: 10px;
+}
+.brand__categories ul li span {
+  position: relative;
+  top: -7px;
+  font-size: 0.8em;
+  padding-left: 3px;
+  color: #777;
+}
+.brand__categories ul li span::before {
+  content: '(';
+}
+.brand__categories ul li span::after {
+  content: ')';
+}
+.brand__categories > ul > li {
+  margin-right: 10px;
+  margin-bottom: 20px;
+  float: left;
+  width: 170px;
+}
+.brand__categories > ul > li ul li {
+  font-size: 0.9em;
+  margin: 3px 0;
+}
+.brand__categories > ul > li ul li a {
+  color: #000;
+}
+.brand__categories > ul > li ul li::before {
+  content: '\25BA\0a0';
+  font-size: 0.8em;
+}
+.brand__categories > ul > li > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.brand__categories > ul > li > ul > li ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 7px;
+}
+.brand__product-list {
+  margin-top: 20px;
+}
+/** Category by brand */
+.brand__category {
+  margin-bottom: 20px;
+}
+.brand__category h2 {
+  margin-bottom: 10px;
+}
+.brand__category h2 > span {
+  font-size: 0.8em;
+}
+.brand__category h2 > span::after {
+  content: ':\0a0';
+}
+.brand__category .brand__logo {
+  float: right;
+}
+.brand__category .brand__logo img {
+  max-width: 200px;
+  max-height: 200px;
+  padding: 0 0 5px 15px;
+}
+.brand__category .brand__preview-text {
+  text-indent: 20px;
+  text-align: justify;
+}
