@@ -26,7 +26,7 @@ $this->widget('widget.listView.DSizerListView', array(
 	'sizerHeader'=>'Показать: ',
 	'sizerVariants'=>[15, 30, 60, 120],
 	//'template'=>'{sizer}{sorter}{items}{pager}{sizer}<div class="sort-hidden">{sorter}</div>', // with sizer 
-	'template'=>'{sorter}{items}{pager}<div class="sort-hidden">{sorter}</div>',
+	'template'=>'{items}{pager}<div class="sort-hidden"></div>',
 	'enableHistory' => true,
 ));
 ?>

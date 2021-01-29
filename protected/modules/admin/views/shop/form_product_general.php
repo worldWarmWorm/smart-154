@@ -38,16 +38,13 @@ $this->breadcrumbs = $breadcrumbs;
         'htmlOptions' => array('enctype'=>'multipart/form-data'),
     )); ?>
 
-     <?=$form->errorSummary($model)?>
-    
-
-
-
+    <?=$form->errorSummary($model)?>
 
     <?php 
     $tabs = array(
       'Основное'=>array('content'=>$this->renderPartial('_form_product', compact('model', 'form'), true), 'id'=>'tab-general'),
-      'Seo'=>array('content'=>$this->renderPartial('_form_product_seo', compact('model', 'form'), true), 'id'=>'tab-seo'),            
+      'Seo'=>array('content'=>$this->renderPartial('_form_product_seo', compact('model', 'form'), true), 'id'=>'tab-seo'),
+      'Торг. предложения' => array('content' => $this->renderPartial('_form_product_offers', compact('model', 'form'), true), 'id' => 'tab-offers'),            
     );
 
     if(Yii::app()->params['attributes'])

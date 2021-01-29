@@ -21,7 +21,7 @@ class DShopRule extends CBaseUrlRule
 	 */
 	public $productOneSef=true;
 	
-	public $baseUrl='catalog';
+	public $baseUrl='assortiment';
 	
 	public $moduleName='shop';
 	
